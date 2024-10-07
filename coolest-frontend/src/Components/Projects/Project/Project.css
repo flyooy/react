@@ -1,0 +1,14 @@
+.project-box {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px; /* Ширина каждого блока */
+    text-align: left; /* Описание выравнивается по левому краю */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для эффекта приподнятости */
+    transition: transform 0.3s ease; /* Анимация при наведении */
+  }
+  
+  .project-box:hover {
+    transform: translateY(-5px); /* Проект приподнимается при наведении */
+  }

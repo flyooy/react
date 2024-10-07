@@ -1,0 +1,16 @@
+/* About.css */
+.container {
+  display: flex; /* Используем Flexbox */
+  flex-direction: column; /* Располагаем элементы в колонку */
+  align-items: center; /* Центрируем по горизонтали */
+  gap: 20px;
+  text-align: center; /* Центрируем текст */
+  padding: 20px; /* Отступы вокруг содержимого */
+  background-color: #f8f8f8; /* Цвет фона (по желанию) */
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #ff5733; /* Замените на желаемый цвет */
+  font-weight: bold; /* Опционально, чтобы выделить текст */
+}

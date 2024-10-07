@@ -1,0 +1,45 @@
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 300px;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #555;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Установите цвет фона кнопки */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Цвет фона при наведении */
+}
+
+button:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button:active {
+  background-color: #004080; /* Цвет фона при нажатии */
+}

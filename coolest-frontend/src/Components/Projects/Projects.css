@@ -1,0 +1,13 @@
+.projects-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.projects-container {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px; /* Отступы между проектами */
+  flex-wrap: wrap; /* Проекты будут переноситься на новую строку при необходимости */
+}

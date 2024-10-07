@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #242424; /* Темный фон, как в футере */
+  border-bottom: 1px solid #333; /* Тонкая граница внизу */
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #fff; /* Белый цвет заголовка */
+}
+
+nav div {
+  display: flex;
+  gap: 20px; /* Пространство между ссылками */
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff; /* Основной цвет ссылок - белый */
+  font-size: 18px;
+  transition: color 0.3s ease; /* Плавная анимация изменения цвета */
+}
+
+nav a:hover {
+  color: #f54923; /* Цвет при наведении - оранжевый */
+}
+
+nav a:focus {
+  outline: 2px solid #f54923; /* Фокусировка - оранжевый контур */
+  outline-offset: 4px;
+}
