@@ -5,6 +5,7 @@
     color: rgba(255, 255, 255, 0.87); /* Цвет текста */
     padding: 20px; /* Отступы для удобства чтения */
     border-radius: 8px; /* Закругление углов для эстетики */
+    margin-top: 5%;
   }
   
   .skills-section h1 {
