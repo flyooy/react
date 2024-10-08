@@ -1,0 +1,33 @@
+/* Skills.css */
+
+.skills-section {
+    background-color: #242424; /* Темный фон для соответствия */
+    color: rgba(255, 255, 255, 0.87); /* Цвет текста */
+    padding: 20px; /* Отступы для удобства чтения */
+    border-radius: 8px; /* Закругление углов для эстетики */
+  }
+  
+  .skills-section h1 {
+    color: rgba(255, 255, 255, 0.87);  /* Цвет заголовка секции */
+    margin-bottom: 15px; 
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style-type: none; /* Убираем стандартные маркеры списка */
+    padding: 0; /* Убираем отступы у списка */
+  }
+  
+  .skills-list li {
+    margin: 10px 0; /* Отступы между элементами списка */
+    padding: 16px; /* Отступы внутри элементов списка */
+    background-color: #333; /* Фон для элементов списка */
+    border-radius: 5px; /* Закругление углов элементов списка */
+    transition: background-color 0.3s; 
+    width: 300px;
+    text-align: center;
+  }
+  
+  .skills-list li:hover {
+    background-color: #444; /* Более светлый фон при наведении */
+  }

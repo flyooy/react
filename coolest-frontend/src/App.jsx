@@ -1,20 +1,19 @@
 import React from "react";
-import "./index.css";
-
-import Header from "./Components/Header/Header";
-import About from "./Components/About/About";
-import Projects from "./Components/Projects/Projects";
-import Contact from "./Components/Contact/Contact";
-import Footer from "./Components/Footer/Footer";
+import { Outlet } from "react-router-dom";
+import Header from "./Components/Header/Header"; 
+import Footer from "./Components/Footer/Footer"; 
+import Contact from "./Components/Contact/Contact"; 
+import About from "./Components/About/About.jsx"; 
+import Projects from "./Components/Projects/Projects.jsx";
 function App() {
   return (
-    <div>
-      <Header />
-      <About name="Yan Mukha" />
-      <Projects />
-      <Contact />
-      <Footer />
+    <div className="app-container">
+    <Header />
+    <div className="content">
+      <Outlet /> 
     </div>
+    <Footer />
+  </div>
   );
 }
 

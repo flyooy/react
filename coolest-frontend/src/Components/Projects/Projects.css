@@ -3,11 +3,50 @@
   padding: 40px 20px;
 }
 
+.projects-section h2{
+  
+  color: rgba(255, 255, 255, 0.87); 
+  margin-top: 25px;
+}
 .projects-container {
+  
   margin-top: 35px;
   margin-bottom: 35px;
   display: flex;
   justify-content: space-around;
   gap: 10px; /* Отступы между проектами */
   flex-wrap: wrap; /* Проекты будут переноситься на новую строку при необходимости */
+  width: 600px;
+}
+
+/* Projects.css */
+
+.projects-section {
+  background-color: #242424; /* Темный фон для соответствия */
+  color: rgba(255, 255, 255, 0.87); /* Цвет текста */
+  padding: 20px; /* Отступы для удобства чтения */
+  border-radius: 8px; /* Закругление углов для эстетики */
+}
+
+.projects-container {
+  display: flex; /* Включаем флекс-контейнер для размещения проектов */
+  flex-direction: column; /* Вертикальная ориентация по умолчанию */
+  gap: 20px; /* Отступы между проектами */
+ 
+}
+
+.project {
+  background-color: #333; /* Немного светлее для карточек проектов */
+  padding: 15px; /* Отступы внутри карточек */
+  border-radius: 8px; /* Закругление углов карточек */
+  transition: transform 0.3s; /* Плавный эффект при наведении */
+}
+
+.project:hover {
+  transform: translateY(-5px); /* Эффект при наведении */
+}
+
+.project h3 {
+  margin-bottom: 10px; /* Отступ под заголовком проекта */
+  color: #f54923; /* Цвет заголовка проекта */
 }

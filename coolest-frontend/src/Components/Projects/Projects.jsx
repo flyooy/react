@@ -23,11 +23,10 @@ function Projects() {
       <h2>Projects</h2>
       <div className="projects-container">
         {projectData.map((project, index) => (
-          <Project
-            key={index}
-            title={project.title}
-            description={project.description}
-          />
+          <div className="project" key={index}>
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+          </div>
         ))}
       </div>
     </div>

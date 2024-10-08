@@ -1,56 +1,61 @@
 .contact-section {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #f8f8f8;
-  }
-  
-  .contact-section h2 {
-    margin-bottom: 20px;
-  }
-  
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 500px;
-    margin: 0 auto; /* Центрируем форму */
-  }
-  
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-  }
-  
-  .form-group label {
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  .form-group input,
-  .form-group textarea {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  button {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #f54923;
-  }
-  
-  button:focus {
-    outline: none;
-    background-color: #f54923;
-  }
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #242424; /* Темный фон для согласованности */
+  color: rgba(255, 255, 255, 0.87); /* Цвет текста */
+  width: 400px;
+  margin: 0 auto; /* Центрируем секцию */
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  margin: 0 auto; /* Центрируем форму */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%; /* Устанавливаем ширину на 100% */
+  box-sizing: border-box; /* Учитываем padding и border в ширине */
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f54923;
+}
+
+button:focus {
+  outline: none;
+  background-color: #f54923;
+}
